@@ -6,18 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Hello World | Hexo</title>
+  <title>页面链接跳转历史URL不记录的兼容处理 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+  <meta name="description" content="原文链接：http://www.zhangxinxu.com/wordpress/2017/02/page-link-url-history-null-not-record/ 在大神的博客中看到了一篇比较好玩的文章，之前一段时间的时候刚好做过一个小的项目，项目不是很大但是里面的页面需要反复跳转，在写的时候也遇到在进入比较深的层的时候，想要返回首页就得一直点返回～但是好像产品大大并没有发现这个问题～">
+<meta name="keywords" content="页面链接跳转历史URL不记录的兼容处理">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2017/10/22/hello-world/index.html">
+<meta property="og:title" content="页面链接跳转历史URL不记录的兼容处理">
+<meta property="og:url" content="http://yoursite.com/2017/03/01/030102/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
-<meta property="og:updated_time" content="2017-07-15T11:55:33.614Z">
+<meta property="og:description" content="原文链接：http://www.zhangxinxu.com/wordpress/2017/02/page-link-url-history-null-not-record/ 在大神的博客中看到了一篇比较好玩的文章，之前一段时间的时候刚好做过一个小的项目，项目不是很大但是里面的页面需要反复跳转，在写的时候也遇到在进入比较深的层的时候，想要返回首页就得一直点返回～但是好像产品大大并没有发现这个问题～">
+<meta property="og:updated_time" content="2017-07-15T11:55:33.596Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.">
+<meta name="twitter:title" content="页面链接跳转历史URL不记录的兼容处理">
+<meta name="twitter:description" content="原文链接：http://www.zhangxinxu.com/wordpress/2017/02/page-link-url-history-null-not-record/ 在大神的博客中看到了一篇比较好玩的文章，之前一段时间的时候刚好做过一个小的项目，项目不是很大但是里面的页面需要反复跳转，在写的时候也遇到在进入比较深的层的时候，想要返回首页就得一直点返回～但是好像产品大大并没有发现这个问题～">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -153,36 +154,36 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-030102" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      页面链接跳转历史URL不记录的兼容处理
     </h1>
   
 
         
-        <a href="/2017/10/22/hello-world/" class="archive-article-date">
-  	<time datetime="2017-10-22T06:24:39.899Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-10-22</time>
+        <a href="/2017/03/01/030102/" class="archive-article-date">
+  	<time datetime="2017-03-01T03:29:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-03-01</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+        <p>原文链接：<a href="http://www.zhangxinxu.com/wordpress/2017/02/page-link-url-history-null-not-record/" target="_blank" rel="external">http://www.zhangxinxu.com/wordpress/2017/02/page-link-url-history-null-not-record/</a></p>
+<p>在大神的博客中看到了一篇比较好玩的文章，之前一段时间的时候刚好做过一个小的项目，项目不是很大但是里面的页面需要反复跳转，在写的时候也遇到在进入比较深的层的时候，想要返回首页就得一直点返回～但是好像产品大大并没有发现这个问题～哦吼吼。今天刚好看到这个问题的解决方法必须get下来：</p>
 <a id="more"></a>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<ol>
+<li>使用location.replace()方法<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$(<span class="string">'#header nav a'</span>).on(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">event</span>) </span>&#123;</div><div class="line">    event.preventDefault();</div><div class="line">    location.replace(<span class="keyword">this</span>.href);</div><div class="line">&#125;)</div><div class="line"><span class="comment">//有兼容性的问题，在iOS的Chrome上测试有问题。</span></div></pre></td></tr></table></figure>
+</li>
+</ol>
+<p>2.history.replaceState()和location.replace()方法双管齐下<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">$(<span class="string">'#header nav a'</span>).on(<span class="string">'click'</span>, <span class="function"><span class="keyword">function</span> (<span class="params">event</span>) </span>&#123;</div><div class="line">    event.preventDefault();</div><div class="line">    history.replaceState(<span class="literal">null</span>, <span class="built_in">document</span>.title, <span class="keyword">this</span>.href.split(<span class="string">'#'</span>)[<span class="number">0</span>] + <span class="string">'#'</span>);</div><div class="line">    location.replace(<span class="string">''</span>);</div><div class="line">&#125;)</div><div class="line"><span class="comment">//首先通过HTML5 history.replaceState()方法把当前URL地址替换成以个井号#结尾的目前链接地址</span></div><div class="line"><span class="comment">//执行location.replace('')刷新当前地址（此时#会忽略）</span></div></pre></td></tr></table></figure></p>
+<p>3.所有浏览器都兼容的页面链接跳转历史不记录的JS代码<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> fnUrlReplace = <span class="function"><span class="keyword">function</span> (<span class="params">eleLink</span>) </span>&#123;  <span class="comment">//eleLink参数表示&lt;a&gt;链接DOM元素</span></div><div class="line">    <span class="keyword">if</span> (!eleLink) &#123;</div><div class="line">        <span class="keyword">return</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">var</span> href = eleLink.href;</div><div class="line">    <span class="keyword">if</span> (href &amp;&amp; <span class="regexp">/^#|javasc/</span>.test(href) === <span class="literal">false</span>) &#123;</div><div class="line">        <span class="keyword">if</span> (history.replaceState) &#123;</div><div class="line">            history.replaceState(<span class="literal">null</span>, <span class="built_in">document</span>.title, href.split(<span class="string">'#'</span>)[<span class="number">0</span>] + <span class="string">'#'</span>);</div><div class="line">            location.replace(<span class="string">''</span>);</div><div class="line">        &#125; <span class="keyword">else</span> &#123;</div><div class="line">             location.replace(href);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;;</div></pre></td></tr></table></figure></p>
+<p>4.使用方法<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">document</span>.getElementsByTagName(<span class="string">'a'</span>)[<span class="number">0</span>].onclick = <span class="function"><span class="keyword">function</span> (<span class="params">event</span>) </span>&#123;</div><div class="line">    <span class="keyword">if</span> (event &amp;&amp; event.preventDefault) &#123;</div><div class="line">        event.preventDefault();</div><div class="line">    &#125;</div><div class="line">    fnUrlReplace(<span class="keyword">this</span>);</div><div class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">&#125;;</div></pre></td></tr></table></figure></p>
 
       
 
@@ -212,6 +213,17 @@
     <div class="article-info article-info-index">
       
       
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">页面链接跳转历史URL不记录的兼容处理</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
       
 
       
@@ -262,7 +274,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/10/22/hello-world/" alt="微信分享二维码">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/03/01/030102/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -276,9 +288,18 @@
   
 <nav id="article-nav">
   
+    <a href="/2017/03/01/0301/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          菜单栏 “三” 变形为“X”css3过渡动画
+        
+      </div>
+    </a>
   
-    <a href="/2017/10/10/grid/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">CSS Grid布局</div>
+  
+    <a href="/2017/02/20/scrolltext/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">文字滚动显示</div>
       <i class="icon-circle-right"></i>
     </a>
   
